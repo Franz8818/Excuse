@@ -22,5 +22,5 @@ window.onload = function() {
   let when1 = Math.floor(Math.random() * 3);
 
   document.getElementById("excuse").innerHTML =
-    who[who1] + what[what1] + object[object1] + when[when1];
+    who[who1] + " " + what[what1] + " " + object[object1] + " " + when[when1];
 };
