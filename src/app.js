@@ -16,10 +16,10 @@ window.onload = function() {
     "during my lunch",
     "while I was praying"
   ];
-  let who1 = Math.floor(Math.random() + 3);
-  let what1 = Math.floor(Math.random() + 3);
-  let object1 = Math.floor(Math.random() + 3);
-  let when1 = Math.floor(Math.random() + 3);
+  let who1 = Math.floor(Math.random() * 3);
+  let what1 = Math.floor(Math.random() * 3);
+  let object1 = Math.floor(Math.random() * 3);
+  let when1 = Math.floor(Math.random() * 3);
 
   document.getElementById("excuse").innerHTML =
     who[who1] + what[what1] + object[object1] + when[when1];
